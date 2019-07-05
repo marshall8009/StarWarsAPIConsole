@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiUsageChallenge", "ApiUsageChallenge\ApiUsageChallenge.csproj", "{52F70AC1-796E-4E96-8487-30F24F24232B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52F70AC1-796E-4E96-8487-30F24F24232B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F70AC1-796E-4E96-8487-30F24F24232B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F70AC1-796E-4E96-8487-30F24F24232B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F70AC1-796E-4E96-8487-30F24F24232B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {36A9C952-B923-4C4C-A3F6-A0AC15D6D566}
+	EndGlobalSection
+EndGlobal
