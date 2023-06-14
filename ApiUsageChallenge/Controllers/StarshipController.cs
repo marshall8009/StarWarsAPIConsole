@@ -81,7 +81,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<List<StarshipModel>> GetAllStarships()
 		{
-			string url = "https://swapi.co/api/starships";
+			string url = "https://swapi.dev/api/starships";
 			List<StarshipModel> output = new List<StarshipModel>();
 
 			do
@@ -160,7 +160,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<StarshipModel> GetSingleStarship(string id)
 		{
-			string url = $"https://swapi.co/api/starships/{ id }/";
+			string url = $"https://swapi.dev/api/starships/{ id }/";
 
 			StarshipModel cached = starshipCache.Where(s => s.Id == id).FirstOrDefault();
 

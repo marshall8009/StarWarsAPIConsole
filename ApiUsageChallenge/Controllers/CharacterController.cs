@@ -119,7 +119,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<List<PersonModel>> GetAllPeople()
 		{
-			string url = "https://swapi.co/api/people/";
+			string url = "https://swapi.dev/api/people/";
 			List<PersonModel> output = new List<PersonModel>();
 
 			do
@@ -205,7 +205,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<PersonModel> GetStarWarsCharacter(string id)
 		{
-			string url = $"https://swapi.co/api/people/{ id }/";
+			string url = $"https://swapi.dev/api/people/{ id }/";
 
 			PersonModel cached = peopleCache.Where(p => p.Id == id).FirstOrDefault();
 

@@ -63,7 +63,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<List<SpeciesModel>> GetAllSpecies()
 		{
-			string url = "https://swapi.co/api/species";
+			string url = "https://swapi.dev/api/species";
 			List<SpeciesModel> output = new List<SpeciesModel>();
 
 			do
@@ -143,7 +143,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<SpeciesModel> GetSingleSpecies(string id)
 		{
-			string url = $"https://swapi.co/api/species/{ id }/";
+			string url = $"https://swapi.dev/api/species/{ id }/";
 
 			SpeciesModel cached = speciesCache.Where(p => p.Id == id).FirstOrDefault();
 

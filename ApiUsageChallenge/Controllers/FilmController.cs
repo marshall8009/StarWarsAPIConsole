@@ -105,7 +105,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<List<FilModel>> GetAllFilms()
 		{
-			string url = "https://swapi.co/api/films";
+			string url = "https://swapi.dev/api/films";
 			List<FilModel> output = new List<FilModel>();
 
 			do
@@ -145,7 +145,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<FilModel> GetSingleFilm(string id)
 		{
-			string url = $"https://swapi.co/api/starships/{ id }/";
+			string url = $"https://swapi.dev/api/starships/{ id }/";
 
 			FilModel cached = filmCache.Where(s => s.Id == id).FirstOrDefault();
 

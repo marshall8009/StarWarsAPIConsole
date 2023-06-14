@@ -83,7 +83,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<List<VehicleModel>> GetAllVehicles()
 		{
-			string url = "https://swapi.co/api/vehicles";
+			string url = "https://swapi.dev/api/vehicles";
 			List<VehicleModel> output = new List<VehicleModel>();
 
 			do
@@ -161,7 +161,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<VehicleModel> GetSingleVehicle(string id)
 		{
-			string url = $"https://swapi.co/api/vehicles/{ id }/";
+			string url = $"https://swapi.dev/api/vehicles/{ id }/";
 
 			VehicleModel cached = vehicleCache.Where(p => p.Id == id).FirstOrDefault();
 

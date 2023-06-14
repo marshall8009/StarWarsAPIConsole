@@ -79,7 +79,7 @@ namespace ApiUsageChallenge.Controllers
 
 		public static async Task<List<PlanetModel>> GetAllPlanets()
 		{
-			string url = "https://swapi.co/api/planets";
+			string url = "https://swapi.dev/api/planets";
 			List<PlanetModel> output = new List<PlanetModel>();
 
 			do
